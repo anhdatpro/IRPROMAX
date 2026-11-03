@@ -1,0 +1,15 @@
+{
+  "name": "IRPROMAX OS (S3 N16R8 - OLED 0.96 SSD1306)",
+  "version": "2.0.0",
+  "new_install_prompt_erase": true,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "bootloader_n16r8.bin", "offset": 0 },
+        { "path": "partitions_n16r8.bin", "offset": 32768 },
+        { "path": "fw_n16r8_096.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
